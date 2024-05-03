@@ -230,10 +230,10 @@ dcgmExporter:
 neuronMonitor:
   name:
   image:
-    repository: neuron-monitor-test
-    tag: agi-test-1
+    repository: neuron-monitor
+    tag: 1.0.1
     repositoryDomainMap:
-      public: 037647485236.dkr.ecr.us-east-1.amazonaws.com
+      public: public.ecr.aws/neuron
   configmap: neuron-monitor-config-map
   service:
     enable: true
